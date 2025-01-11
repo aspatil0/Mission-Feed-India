@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEED INDIA | PROVIDER</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 9, 9);
+}
+nav{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/1200x/68/ef/1f/68ef1f81f186ad1690c71ee2afd27574.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+nav .left{
+    text-align: left;
+}
+ul{
+    list-style: none;
+    display: block;
+    
+}
+.container{
+        margin-top: 100px;
+       
+        width: 500px;
+height: 550px;    
+background-color:rgba(0, 0, 0, 0.5);
+display:grid;
+place-content: center;
+backdrop-filter: blur(10px);
+border-radius: 15px;
+margin-left: 500px;
+padding: 30px;
+
+}
+
+.form-group{
+    width: 400px;
+    margin: 20px 0;
+
+}
+
+
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.form-group textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    font-size: 1em;
+
+}
+#btn{
+   width:40%; 
+   height: 50px;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   font-weight: 600;
+   background-color: rebeccapurple;
+   color: white;
+border: none;
+transition: 0.5s;
+cursor: pointer;
+
+}
+
+#btn:hover{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+li{
+    display: inline;
+    padding: 35px;
+    color: rgb(25, 16, 16);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+marquee{
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;font-size: 20px;
+    padding: 30px;
+}
+.left{
+    text-decoration: underline;
+    color: black;
+font-size: 30px;
+}
+li:hover{
+    text-decoration: underline;
+    
+}
+h2:hover{
+    color: gold;
+}
+body{
+background-image: url(https://t4.ftcdn.net/jpg/07/11/27/51/360_F_711275145_NDDuT7VivUvP7z6YM0eY3kCYMclrCAAD.jpg);    background-repeat: no-repeat;
+background-size: cover;
+
+}
+h2 a{
+    color: silver;
+}
+
+h3{
+    color: rgb(15, 15, 14);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+hover{
+
+color: gold;}
+
+    </style>
+</head>
+<body>
+    <nav>
+
+        <ul>
+         <li class="left">FEED INDIA</li>
+         <li><a href="home.php">HOME</a></li>
+
+         <li><a href="motive.html">MOTIVE</a></li>
+         
+         <li><a href="DONATE.php">CONTACT US</a></li>
+        </ul>
+     </nav>
+     <marquee behavior="" direction="">YOUR WELCOME TO OUR PROVIDER SECTION . PLEASE SELECT THE REGISTRATION BLOCK AS PER YOUR BUSINEESS.</marquee>
+    <h3>YOUR ARE OUR <span style="color: rgb(138, 14, 205);"> PREMIUM MEMBER</span>  <br>
+    PLEASE CLICK ON LINK BELOW AND JOIN US</h3>
+
+   <a href="#"><img src="./PBL WORK/mybot.jpeg" alt="" style="width: 200px;margin-left: 650px; margin-top: 20px;"></a> 
+
+   <div class="container">
+    <h1>HOTEL SERVICE PROVIDER</h1>
+    <form action="donate1.php" method="POST">
+        HOTEL NAME:
+        <div class="form-group" >
+            <input type="text" name="full_name" placeholder="enter name" id="full_name">
+        </div>
+        ENTER HOTEL AREA:
+        <div class="form-group"><input type="text" name="email" id="email" placeholder="enter city" ></div>
+        ENTER CONTACT NO AND MESSAGE
+        <div class="form-group">
+            <input type="text" name="mobileno" id="mobileno">
+        </div>
+        <input id="btn" name="submit"       type="submit" value="SEND US"  >
+    </form>
+   
+</div>
+<hr><hr><hr>
+<div class="container">
+    <h1>NGO SERVICE PROVIDER</h1>
+    <form action="donate2.php" method="POST">
+        NGO NAME:
+        <div class="form-group" >
+            <input type="text" name="full_name" placeholder="enter name" id="full_name">
+        </div>
+        ENTER YOUR AREA
+        <div class="form-group"><input type="text" name="email" id="email" placeholder="enter city" ></div>
+        ENTER CONTACT NO AND MESSAGE
+        <div class="form-group">
+            <input type="text" name="mobileno" id="mobileno">
+        </div>
+        <input id="btn" name="submit"       type="submit" value="SEND US"  >
+    </form>    
+    
+   
+    
+</body>
+</html>
